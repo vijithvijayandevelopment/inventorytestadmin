@@ -1,0 +1,81 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+}
+
+.login-card {
+    width: 360px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: #0b4f81;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.login-logo {
+    height: 80px;
+    width: 120px;
+    margin-bottom: 4px;
+}
+
+.login-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.login-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}
+
+.login-links a {
+    font-size: 13px;
+    color: #6bb9f0;
+}
+
+.login-signup {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.login-signup a {
+    color: #6bb9f0;
+}
+
+.login-card label {
+    color: #fff !important;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.login-footer-text {
+    color: #999;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.login-register-link {
+    color: #1890ff;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.login-register-link:hover {
+    color: #40a9ff;
+    text-decoration: underline;
+}
